@@ -314,7 +314,7 @@ _Note: interpret the results like: how similar are the members in the clusters? 
 the group? Etc._
 <br>
 
-**K-Means Clustering**
+## K-Means Clustering
 
 <div align="justify"> 
 1. Figure 8 shows the graph of the distortion score elbow for K-Means clustering. In order
@@ -463,6 +463,7 @@ the group? Etc._
 <br>
 
 **Performance Comparison (K-Means vs DBSCAN)**
+
 <div align="justify"> 
 As was explored in the 2 sections above, K-Means model resulted in 2 clusters with a
 silhouette score of 0.703 while DBSCAN model did not result in any meaningful number of
