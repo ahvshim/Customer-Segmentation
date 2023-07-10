@@ -7,6 +7,7 @@ Customer churn is defined as when customers or subscribers discontinue doing bus
 with a firm or service. Customers in the telecom industry can choose from a variety of service
 providers and actively switch from one to the next.
 </div>
+<br>
 <div align="justify">
 Individualized customer retention is tough because most firms have a large number of
 customers and can't afford to devote much time to each of them. The costs would be too great,
@@ -15,12 +16,14 @@ are likely to leave ahead of time, it could focus customer retention efforts onl
 risk" clients. The ultimate goal is to expand its coverage area and retrieve more customer’s
 loyalty.
 </div>
+<br>
 
 <div align="justify">
 Customer churn is a critical metric because it is much less expensive to retain existing
 customers than it is to acquire new customers. To reduce customer churn, we need to predict
 which customers are at high risk of churn.
 </div>
+<br>
 
 <div align="justify">
 Before performing the unsupervised learning approaches, we had to know the data well
@@ -33,6 +36,7 @@ observe breakpoints and helps us to internalize the data.
 The dataset C-TelcoChurn consists of 7043 rows and 21. While each row represents a
 customer, each column contains customer’s attributes.
 </div>
+<br>
 
 
 The data set includes information about:
@@ -44,6 +48,7 @@ The data set includes information about:
     method, paperless billing, monthly charges, and total charges
 4. Demographic info about customers: gender, age range, and if they have partners and
     dependents
+<br>
 
 <div align="justify">
 
@@ -54,6 +59,7 @@ there are more “No” churns in the dataset, Figure 2 shows that gender does n
 in any way and an almost identical nature is visible in Figure 3 for Partners.
 
 </div>
+<br>
 
 <div align="center">
   <img src="https://github.com/ahvshim/Customer-Segmentation/assets/126220185/dc32d589-9b4f-4b00-8f29-474d28f4db98">
@@ -80,6 +86,7 @@ of two methods available. Data is provided, which supports business executives i
 decision. An analyst's analysis will be more accurate and useful if the data have been prepared
 carefully and thoroughly.
 </div>
+<br>
 
 <div align="justify">
 The overall statistics of the continuous variables in the dataset are described in Figure
@@ -122,6 +129,7 @@ Next One-hot coding techniques were employed to transform the remaining categori
 data into numerical values. Ordinal labels and coding would not be suitable because they would
 bring rank into the data.
 </div>
+<br>
 
 <div align="justify">
 The relevant columns are MultipleLines, InternetService, OnlineBackup,
@@ -152,6 +160,7 @@ dataset include internet and telecommunications services. Additionally, this com
 each of its clients an online rental payment option. Direct internet streaming of TV shows and
 films is one of the amenities offered.
 </div>
+<br>
 
 <div align="justify">
 The data set was downloaded from the Kaggle website. The following URL serves as a
@@ -161,6 +170,7 @@ the use of statistical summaries and graphical representations, it is used to id
 patterns, or to verify assumptions and is a method for improving visual comprehension of data
 analysis on this dataset studies.
 </div>
+<br>
 
 <div align="justify">
 Data preprocessing, a part of data preparation, refers to any type of processing done on
@@ -466,6 +476,7 @@ algorithm for this dataset. K-Means on the other hand proves to be a good cluste
 for this dataset with a silhouette score of 0.703 (close to +1). But 2 key points has to be
 addressed here which are:
 </div>
+<br>
 
 <div align="justify"> 
 1. Although 2 clusters are derived, no clear and apparent relationship or interesting
@@ -496,6 +507,7 @@ the mean of the data was grouped by KM-cluster. Eventually, visualizations techn
 scatter plot and silhouette visualizer were obtained to find any interesting patterns in the data
 and check the quality of each cluster respectively.
 </div>
+<br>
 
 <div align="justify"> 
 On the other way, DBSCAN (Density-Based Spatial Clustering of Applications with
