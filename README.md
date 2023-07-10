@@ -492,7 +492,7 @@ addressed here which are:
     clusters with a hit on the silhouette score is possible but there is no guarantee of
     generating useful insights as the data is tightly packed together as a whole.
 </div>
-
+<br>
 **SECTION 5 : Conclusion**
 
 <div align="justify"> 
